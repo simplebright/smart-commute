@@ -67,40 +67,6 @@ Cache	Redis
 Concurrency Control	Redis + Lua
 Map API	OpenStreetMap
 Build Tool	Maven
-📁 Project Structure
-src/main/java/com/example/smart_commute/
-
-├── config
-│   ├── JwtConstants.java
-│   ├── JwtFilter.java
-│   ├── JwtUtil.java
-│   └── SecurityConfig.java
-│
-├── controller
-│   ├── AuthController.java        # Login / Registration
-│   ├── RouteController.java       # Route planning APIs
-│   └── PaymentController.java     # Orders, payment, callbacks
-│
-├── dto
-│   ├── LoginRequest.java
-│   └── PayRequest.java
-│
-├── entity
-│   ├── User.java
-│   ├── OrderInfo.java
-│   └── PaymentLog.java
-│
-├── mapper
-│   ├── UserMapper.java
-│   ├── OrderMapper.java
-│   └── PaymentLogMapper.java
-│
-├── service
-│   ├── UserService.java
-│   ├── RouteService.java
-│   └── PaymentService.java
-│
-└── SmartCommuteApplication.java
 
 📌 Core Features
 🔐 1. Authentication (JWT)
